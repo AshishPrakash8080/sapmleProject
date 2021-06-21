@@ -1,0 +1,102 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    font-weight: 100;
+}
+
+.container {
+    position: relative;
+    margin: 20px 200px;
+    display: block;
+  }
+
+
+.heading-bold {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+.heading-thin {
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex-row-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+  
+.card {
+    min-height: 355px;
+    min-width: 229px;
+    border: 1px solid #e74c3c;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 10px 10px 10px #00000029;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+.card-heading {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.7em;
+    color: #e74c3c;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.card-heading::after {
+    content: "";
+    position: absolute;
+    margin-top: 11px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(129, 127, 127);
+    position: absolute;
+    height: 1.3px;
+    width: 76%;
+     top: 30px;
+    left: 2%;
+    margin-left: 50px;
+}
+
+.card-item {
+    font-size: 0.6em;
+    font-weight: 400;
+    color: #ff0000;
+    text-decoration: line-through;
+}
+ 
+ .card-item-pending {
+    margin-left: -55px;
+    margin-bottom: 180px;
+    margin-top:-18%;
+}
+
+.task-check {
+    width: 17px;
+    height: 16px;
+}
+
+.task-left {
+    font-size: 0.6em;
+    font-weight: 400;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+
+
